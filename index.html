@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ruchir Kavulli</title>
-<meta name="description" content="Ruchir Kavulli. Builds satellites, cancer centers, and an intelligence with no human prior.">
+<meta name="description" content="Ruchir Kavulli. Satellites, cancer centers, and an intelligence with no human prior.">
 <meta property="og:image" content="ktvu-studio.jpg">
 <style>
 :root{--bg:#fff;--fg:#111;--mute:#666;--line:#e5e5e5;--link:#0047ff}
@@ -12,7 +12,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 ui-sans-serif,-apple-system,"Helvetica Neue",Arial,sans-serif}
 main{max-width:720px;margin:0 auto;padding:56px 16px 80px}
-h1{font-size:44px;line-height:1.05;margin:0 0 10px;letter-spacing:-.02em}
+h1{font-size:44px;line-height:1.05;margin:0 0 16px;letter-spacing:-.02em}
 h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--mute);margin:56px 0 12px;font-weight:600}
 p{margin:0 0 14px}
 a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
@@ -30,6 +30,10 @@ ul{padding:0;margin:0;list-style:none}
 li{padding:10px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px}
 li span{color:var(--mute);white-space:nowrap;font-size:15px}
 .big{font-size:21px;line-height:1.45}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}
+.stats b{display:block;color:var(--fg);font-size:26px;letter-spacing:-.02em}
+.stats div{font-size:13px;color:var(--mute);line-height:1.35}
+@media (max-width:560px){.stats{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){h1{font-size:36px}.grid{grid-template-columns:1fr}li{flex-direction:column;gap:2px}}
 </style>
 </head>
@@ -37,7 +41,6 @@ li span{color:var(--mute);white-space:nowrap;font-size:15px}
 <main>
 
 <h1>Ruchir Kavulli</h1>
-<p class="sub">Electrical engineering + physics, USC. CTO of Mi Vivo.</p>
 <div class="links">
 <a href="mailto:kavulli@usc.edu">kavulli@usc.edu</a>
 <a href="https://github.com/rsktaker">GitHub</a>
@@ -50,7 +53,14 @@ li span{color:var(--mute);white-space:nowrap;font-size:15px}
 <figcaption>Live on <a href="https://www.ktvu.com/video/1431587">KTVU FOX 2</a> after NASA picked our satellite for launch.</figcaption>
 </figure>
 
-<p class="big" style="margin-top:28px">I started a satellite program in high school and NASA selected it for launch. I design flight computers, PCBs, firmware and FPGA logic. Now I'm building an intelligence that has never seen a human.</p>
+<p class="big" style="margin-top:28px">I started a satellite program in high school and won a $300k NASA launch grant for it. I co-founded a cancer-care company that raised a $500k seed. I design flight computers, PCBs, firmware and FPGA logic. Now I'm building an intelligence that has never seen a human.</p>
+
+<div class="stats">
+<div><b>$300k</b>NASA launch grant</div>
+<div><b>$500k</b>Seed round, Mi Vivo</div>
+<div><b>3 + 2</b>Linear accelerators and CT scanners acquired</div>
+<div><b>1st author</b><i>Frontiers in Oncology</i></div>
+</div>
 
 <h2>Alien Intelligence</h2>
 <p><b>This is what I'm dedicated to.</b></p>
@@ -76,16 +86,17 @@ li span{color:var(--mute);white-space:nowrap;font-size:15px}
 </div>
 
 <h2>Mi Vivo</h2>
-<p>I co-founded Mi Vivo and I'm its CTO. We build complete radiotherapy centers inside shipping containers, pre-assembled and plug-and-play, for countries that don't have enough of them. Our oncology software already runs in two hospitals in Honduras. It's a for-profit company with a charity's mission, and I'm committed to it.</p>
-<p>First-author perspective on containerized radiotherapy, accepted at <i>Frontiers in Oncology</i>.</p>
+<p>I co-founded Mi Vivo and I'm its CTO. We build complete radiotherapy centers inside shipping containers, pre-assembled and plug-and-play, for countries that don't have enough of them. We raised a $500k seed round and have acquired 3 linear accelerators and 2 CT scanners. Our oncology software already runs in two hospitals in Honduras, and I've been there twice to deploy it. It's a for-profit company with a charity's mission, and I'm committed to it.</p>
+<p>Paper: <i>"Parts to a whole: pre-assembled, containerized radiotherapy centers for low- and middle-income countries."</i> First author, accepted at <i>Frontiers in Oncology</i>.</p>
 
 <h2>Also</h2>
 <ul>
 <li><div>Ambient Scientific, ultra low-power AI chips. FPGA, Verilog, test rigs</div><span>2022–2024</span></li>
-<li><div>Avionics board, <a href="https://www.uscrpl.com/aftershock-ii">USC Rocket Propulsion Lab</a></div><span>2024</span></li>
+<li><div>HAMSTER avionics board (4-layer), <a href="https://www.uscrpl.com/aftershock-ii">USC Rocket Propulsion Lab</a></div><span>2024</span></li>
 <li><div>.406 Ventures, Venture Fellow</div><span>2025–</span></li>
 <li><div>Entrepreneurs First, Fellow</div><span>2025–2026</span></li>
 <li><div>CoDream, first-cohort resident</div><span>2025</span></li>
+<li><div>TZero, space consulting for early-stage aerospace companies</div><span>2025</span></li>
 <li><div><a href="https://github.com/rsktaker/advertise-to-yourself">Advertise to Yourself</a>, and other tools I build for myself</div><span></span></li>
 </ul>
 
